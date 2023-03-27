@@ -1,0 +1,18 @@
+[tool.poetry]
+authors = ["Brad Anderson <brad@sankatygroup.com>"]
+description = "options trading strategies"
+name = "options_momo"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.5.3"
+pandas_ta = "^0.3.14-beta.0"
+backtesting = "^0.3.3"
+ta = "^0.10.2"
+yfinance = "^0.2.4"
+polygon-api-client = "^1.6.2"
+pandas-market-calendars = "^4.1.4"
+
+[tool.poetry.dev-dependencies]
+black = "^22.12.0"
